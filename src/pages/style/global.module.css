@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400&display=swap');
 
 body {
 	font-family: 'Urbanist', sans-serif;
@@ -23,7 +23,6 @@ body {
 	background: rgba(0,0,0,0.61);
 	-webkit-border-radius: 100px;
 }
-
 
 h1 {
 	font-weight: 200;
@@ -127,4 +126,9 @@ a:hover {
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
+}
+
+p > a {
+	text-shadow: 2px 1px 10px rgba(150, 150, 150, 0.96);
+	font-weight: 400;
 }
