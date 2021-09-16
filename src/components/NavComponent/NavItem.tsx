@@ -10,9 +10,7 @@ type NavItemProps = {
 
 const NavItem: FC<NavItemProps> = (props) => {
     return (
-
         <li><Link to={props.URL}>{props.Name} </Link></li>
-
     )
 }
 
